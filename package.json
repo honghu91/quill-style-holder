@@ -1,0 +1,30 @@
+{
+  "name": "quill-style-holder",
+  "version": "1.0.0",
+  "description": "hold style for quill editor",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honghu91/quill-style-holder.git"
+  },
+  "author": "dorsywang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honghu91/quill-style-holder/issues"
+  },
+  "homepage": "https://github.com/honghu91/quill-style-holder#readme",
+  "devDependencies": {
+    "@types/quill": "^2.0.9",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "quill": "^2.0.0-dev.4"
+  }
+}
