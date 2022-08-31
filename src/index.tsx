@@ -1,12 +1,12 @@
 import Quill from 'quill';
 import styleHolder from './styleholder';
 
-const editor = new Quill('#editor', {
+const editor = new Quill('#container', {
 	theme: 'snow'
 });
 
 editor.setContents(editor.clipboard.convert({
-	html: '<b>sadfasdf</b>'
+	html: '<b>1</b>'
 }));
 
 styleHolder(editor);
